@@ -197,9 +197,10 @@ p.small {
 .chat > div[class^="right"] > .images {
   display: flex;
   gap: 10px;
+  justify-content: end;
 }
 .chat > div[class^="right"] > .images img {
-  width: 50px;
+  max-width: calc(100% / 5 + 5px);
   border-radius: 15px;
 }
 
